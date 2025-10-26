@@ -1,0 +1,194 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics",
+      "description": "Electronic devices and accessories"
+    },
+    {
+      "id": "2",
+      "name": "Clothing",
+      "description": "Fashion and apparel"
+    },
+    {
+      "id": "3",
+      "name": "Home & Garden",
+      "description": "Home improvement and garden supplies"
+    },
+    {
+      "id": "4",
+      "name": "Books",
+      "description": "Books and literature"
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 17,
+      "description": "High-quality wireless headphones with noise cancellation",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+    },
+    {
+      "id": "p2",
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 199.99,
+      "stock": 8,
+      "description": "Feature-rich smartwatch with fitness tracking",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+    },
+    {
+      "id": "p3",
+      "name": "Laptop Stand",
+      "category": "Electronics",
+      "price": 45.99,
+      "stock": 0,
+      "description": "Ergonomic laptop stand for better posture",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400"
+    },
+    {
+      "id": "p4",
+      "name": "Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 24.99,
+      "stock": 50,
+      "description": "Comfortable cotton t-shirt in various colors",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400"
+    },
+    {
+      "id": "p5",
+      "name": "Denim Jeans",
+      "category": "Clothing",
+      "price": 59.99,
+      "stock": 30,
+      "description": "Classic fit denim jeans",
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400"
+    },
+    {
+      "id": "p6",
+      "name": "Garden Tools Set",
+      "category": "Home & Garden",
+      "price": 79.99,
+      "stock": 12,
+      "description": "Complete set of essential garden tools",
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400"
+    },
+    {
+      "id": "p7",
+      "name": "Indoor Plant Pot",
+      "category": "Home & Garden",
+      "price": 19.99,
+      "stock": 25,
+      "description": "Decorative ceramic pot for indoor plants",
+      "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400"
+    },
+    {
+      "id": "p8",
+      "name": "JavaScript Guide",
+      "category": "Books",
+      "price": 34.99,
+      "stock": 18,
+      "description": "Comprehensive guide to modern JavaScript",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400"
+    },
+    {
+      "id": "p9",
+      "name": "React Cookbook",
+      "category": "Books",
+      "price": 42.99,
+      "stock": 0,
+      "description": "Advanced React patterns and best practices",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400"
+    },
+    {
+      "id": "p10",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 69.99,
+      "stock": 20,
+      "description": "Portable bluetooth speaker with great sound quality",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400"
+    }
+  ],
+  "users": [
+    {
+      "id": "9qOxSRl9QZMZoxixYfm51vz4Cv22",
+      "email": "",
+      "name": "",
+      "wishlist": [
+        "p1"
+      ],
+      "addresses": [
+        {
+          "id": "1761297311751",
+          "label": "Test",
+          "street": "No 26",
+          "city": "Chennai",
+          "state": "Tamilnadu",
+          "zipCode": "600077",
+          "country": "India"
+        }
+      ]
+    },
+    {
+      "id": "9qOxSRl9QZMZoxixYfm51vz4Cv22",
+      "email": "",
+      "name": "",
+      "wishlist": [],
+      "addresses": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "610b",
+      "userId": "9qOxSRl9QZMZoxixYfm51vz4Cv22",
+      "products": [
+        {
+          "productId": "p8",
+          "quantity": 1,
+          "price": 34.99,
+          "name": "JavaScript Guide"
+        }
+      ],
+      "total": 34.99,
+      "address": {
+        "id": "1761297311751",
+        "label": "Test",
+        "street": "No 26",
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "zipCode": "600077",
+        "country": "India"
+      },
+      "status": "Delivered",
+      "createdAt": "2025-10-24T09:15:46.418Z"
+    },
+    {
+      "id": "d717",
+      "userId": "9qOxSRl9QZMZoxixYfm51vz4Cv22",
+      "products": [
+        {
+          "productId": "p10",
+          "quantity": 1,
+          "price": 69.99,
+          "name": "Bluetooth Speaker"
+        }
+      ],
+      "total": 69.99,
+      "address": {
+        "id": "1761297311751",
+        "label": "Test",
+        "street": "No 26",
+        "city": "Chennai",
+        "state": "Tamilnadu",
+        "zipCode": "600077",
+        "country": "India"
+      },
+      "status": "Shipped",
+      "createdAt": "2025-10-24T09:16:39.941Z"
+    }
+  ]
+}
