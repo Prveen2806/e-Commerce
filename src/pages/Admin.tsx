@@ -368,7 +368,10 @@ const Admin: React.FC = () => {
               precision={2} 
               style={{ width: '100%' }} 
               formatter={value => `$ ${value}`}
-              parser={value => value!.replace(/\$\s?|(,*)/g, '')}
+              parser={((value: string) => {
+                const cleaned = value ? value.replace(/\$\s?|(,*)/g, '') : '';
+                return cleaned === '' ? 0 : Number(cleaned);
+              }) as any}
             />
           </Form.Item>
           
